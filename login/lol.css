@@ -1,0 +1,8 @@
+.error{
+    color: red;
+}
+.content{
+    height: 500px;
+    width: 500px;
+    font-family: 'Courier New', Courier, monospace;
+}
