@@ -1,0 +1,30 @@
+/* Print Styles Fiji Sunset*/
+
+nav, header {
+    display: none;
+}
+@page {
+    size: 0.5in 11in;
+    margin: 0.5in;
+}
+
+/* formats page for printing */
+body {
+    color: black;
+    background-color: white;
+    background-image: none;
+    font-size: 12pt;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 120%;
+}
+
+/* sets links to default colors */
+a {
+    text-decoration: underline;
+    color: blue;
+}
+
+/* remove images from printout */
+img {
+    display: none;
+}
