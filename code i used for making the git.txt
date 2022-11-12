@@ -1,0 +1,250 @@
+PCHR@MIKOS-DESKTOP MINGW64 ~
+$ help
+GNU bash, version 5.1.16(1)-release (x86_64-pc-msys)
+These shell commands are defined internally.  Type `help' to see this list.
+Type `help name' to find out more about the function `name'.
+Use `info bash' to find out more about the shell in general.
+Use `man -k' or `info' to find out more about commands not in this list.
+
+A star (*) next to a name means that the command is disabled.
+
+ job_spec [&]                            history [-c] [-d offset] [n] or hist>
+ (( expression ))                        if COMMANDS; then COMMANDS; [ elif C>
+ . filename [arguments]                  jobs [-lnprs] [jobspec ...] or jobs >
+ :                                       kill [-s sigspec | -n signum | -sigs>
+ [ arg... ]                              let arg [arg ...]
+ [[ expression ]]                        local [option] name[=value] ...
+ alias [-p] [name[=value] ... ]          logout [n]
+ bg [job_spec ...]                       mapfile [-d delim] [-n count] [-O or>
+ bind [-lpsvPSVX] [-m keymap] [-f file>  popd [-n] [+N | -N]
+ break [n]                               printf [-v var] format [arguments]
+ builtin [shell-builtin [arg ...]]       pushd [-n] [+N | -N | dir]
+ caller [expr]                           pwd [-LPW]
+ case WORD in [PATTERN [| PATTERN]...)>  read [-ers] [-a array] [-d delim] [->
+ cd [-L|[-P [-e]] [-@]] [dir]            readarray [-d delim] [-n count] [-O >
+ command [-pVv] command [arg ...]        readonly [-aAf] [name[=value] ...] o>
+ compgen [-abcdefgjksuv] [-o option] [>  return [n]
+ complete [-abcdefgjksuv] [-pr] [-DEI]>  select NAME [in WORDS ... ;] do COMM>
+ compopt [-o|+o option] [-DEI] [name .>  set [-abefhkmnptuvxBCHP] [-o option->
+ continue [n]                            shift [n]
+ coproc [NAME] command [redirections]    shopt [-pqsu] [-o] [optname ...]
+ declare [-aAfFgiIlnrtux] [-p] [name[=>  source filename [arguments]
+ dirs [-clpv] [+N] [-N]                  suspend [-f]
+ disown [-h] [-ar] [jobspec ... | pid >  test [expr]
+ echo [-neE] [arg ...]                   time [-p] pipeline
+ enable [-a] [-dnps] [-f filename] [na>  times
+ eval [arg ...]                          trap [-lp] [[arg] signal_spec ...]
+ exec [-cl] [-a name] [command [argume>  true
+ exit [n]                                type [-afptP] name [name ...]
+ export [-fn] [name[=value] ...] or ex>  typeset [-aAfFgiIlnrtux] [-p] name[=>
+ false                                   ulimit [-SHabcdefiklmnpqrstuvxPT] [l>
+ fc [-e ename] [-lnr] [first] [last] o>  umask [-p] [-S] [mode]
+ fg [job_spec]                           unalias [-a] name [name ...]
+ for NAME [in WORDS ... ] ; do COMMAND>  unset [-f] [-v] [-n] [name ...]
+ for (( exp1; exp2; exp3 )); do COMMAN>  until COMMANDS; do COMMANDS; done
+ function name { COMMANDS ; } or name >  variables - Names and meanings of so>
+ getopts optstring name [arg ...]        wait [-fn] [-p var] [id ...]
+ hash [-lr] [-p pathname] [-dt] [name >  while COMMANDS; do COMMANDS; done
+ help [-dms] [pattern ...]               { COMMANDS ; }
+
+PCHR@MIKOS-DESKTOP MINGW64 ~
+$ login
+bash: login: command not found
+
+PCHR@MIKOS-DESKTOP MINGW64 ~
+$ cd..
+bash: cd..: command not found
+
+PCHR@MIKOS-DESKTOP MINGW64 ~
+$ cd ..
+
+PCHR@MIKOS-DESKTOP MINGW64 /c/Users
+$ cd PCHR
+
+PCHR@MIKOS-DESKTOP MINGW64 ~
+$ cd sendhelp
+
+PCHR@MIKOS-DESKTOP MINGW64 ~/sendhelp
+$ cd asi
+
+PCHR@MIKOS-DESKTOP MINGW64 ~/sendhelp/asi
+$ git init
+Initialized empty Git repository in C:/Users/PCHR/sendhelp/asi/.git/
+
+PCHR@MIKOS-DESKTOP MINGW64 ~/sendhelp/asi (master)
+$ git config --global user.name MikoTheShiba
+
+PCHR@MIKOS-DESKTOP MINGW64 ~/sendhelp/asi (master)
+$ git config --global user.email mikoangeles2001@gmail.com
+
+PCHR@MIKOS-DESKTOP MINGW64 ~/sendhelp/asi (master)
+$ git config --global user.password varusjinxteemo10
+
+PCHR@MIKOS-DESKTOP MINGW64 ~/sendhelp/asi (master)
+$ git config --global credential.helper store
+
+PCHR@MIKOS-DESKTOP MINGW64 ~/sendhelp/asi (master)
+$ git config --list --show-origin
+file:C:/Program Files/Git/etc/gitconfig diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig http.sslbackend=openssl
+file:C:/Program Files/Git/etc/gitconfig http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+file:C:/Program Files/Git/etc/gitconfig core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig core.symlinks=false
+file:C:/Program Files/Git/etc/gitconfig core.editor="C:\\Program Files\\Sublime Text 3\\subl.exe" -w
+file:C:/Program Files/Git/etc/gitconfig pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig credential.helper=manager-core
+file:C:/Program Files/Git/etc/gitconfig credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig init.defaultbranch=master
+file:C:/Users/PCHR/.gitconfig   filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Users/PCHR/.gitconfig   filter.lfs.process=git-lfs filter-process
+file:C:/Users/PCHR/.gitconfig   filter.lfs.required=true
+file:C:/Users/PCHR/.gitconfig   filter.lfs.clean=git-lfs clean -- %f
+file:C:/Users/PCHR/.gitconfig   user.name=MikoTheShiba
+file:C:/Users/PCHR/.gitconfig   user.email=mikoangeles2001@gmail.com
+file:C:/Users/PCHR/.gitconfig   user.password=varusjinxteemo10
+file:C:/Users/PCHR/.gitconfig   credential.helper=store
+file:.git/config        core.repositoryformatversion=0
+file:.git/config        core.filemode=false
+file:.git/config        core.bare=false
+file:.git/config        core.logallrefupdates=true
+file:.git/config        core.symlinks=false
+file:.git/config        core.ignorecase=true
+
+PCHR@MIKOS-DESKTOP MINGW64 ~/sendhelp/asi (master)
+$ git clone https://github.com/MikoTheShiba/asi
+Cloning into 'asi'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+PCHR@MIKOS-DESKTOP MINGW64 ~/sendhelp/asi (master)
+$ cd asi
+
+PCHR@MIKOS-DESKTOP MINGW64 ~/sendhelp/asi/asi (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/PCHR/sendhelp/asi/asi/.git/
+
+PCHR@MIKOS-DESKTOP MINGW64 ~/sendhelp/asi/asi (main)
+$ git commit -m "first commit"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+PCHR@MIKOS-DESKTOP MINGW64 ~/sendhelp/asi/asi (main)
+$ git commit -m "first commit"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        login/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+PCHR@MIKOS-DESKTOP MINGW64 ~/sendhelp/asi/asi (main)
+$ git add login
+warning: in the working copy of 'login/content.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'login/login.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'login/newuser.js', LF will be replaced by CRLF the next time Git touches it
+
+PCHR@MIKOS-DESKTOP MINGW64 ~/sendhelp/asi/asi (main)
+$ git commit -m "adding dat login project"
+[main 111b4e9] adding dat login project
+ 12 files changed, 27990 insertions(+)
+ create mode 100644 login/conn.js
+ create mode 100644 login/content.js
+ create mode 100644 login/contentbackup.js
+ create mode 100644 login/disp.html
+ create mode 100644 login/login.html
+ create mode 100644 login/login.js
+ create mode 100644 login/loginbackup.js
+ create mode 100644 login/lol.css
+ create mode 100644 login/newuser.js
+ create mode 100644 login/note to self when wake up.txt
+ create mode 100644 login/signup.html
+ create mode 100644 login/testing.js
+
+PCHR@MIKOS-DESKTOP MINGW64 ~/sendhelp/asi/asi (main)
+$ git branch -M main
+
+PCHR@MIKOS-DESKTOP MINGW64 ~/sendhelp/asi/asi (main)
+$ git remote add origin https://github.com/MikoTheShiba/asi.git
+error: remote origin already exists.
+
+PCHR@MIKOS-DESKTOP MINGW64 ~/sendhelp/asi/asi (main)
+$ git push -u origin main
+Enumerating objects: 16, done.
+Counting objects: 100% (16/16), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (15/15), done.
+Writing objects: 100% (15/15), 74.42 KiB | 3.10 MiB/s, done.
+Total 15 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), done.
+To https://github.com/MikoTheShiba/asi
+   4c63593..111b4e9  main -> main
+branch 'main' set up to track 'origin/main'.
+
+PCHR@MIKOS-DESKTOP MINGW64 ~/sendhelp/asi/asi (main)
+$
+
+PCHR@MIKOS-DESKTOP MINGW64 ~/sendhelp/asi/asi (main)
+$ git push -u origin main
+Everything up-to-date
+branch 'main' set up to track 'origin/main'.
+
+PCHR@MIKOS-DESKTOP MINGW64 ~/sendhelp/asi/asi (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+PCHR@MIKOS-DESKTOP MINGW64 ~/sendhelp/asi/asi (main)
+$ git checkout -b "lets add the login"
+fatal: 'lets add the login' is not a valid branch name
+
+PCHR@MIKOS-DESKTOP MINGW64 ~/sendhelp/asi/asi (main)
+$ git checkout -b "lets_add_the_login"
+Switched to a new branch 'lets_add_the_login'
+
+PCHR@MIKOS-DESKTOP MINGW64 ~/sendhelp/asi/asi (lets_add_the_login)
+$ git add login
+
+PCHR@MIKOS-DESKTOP MINGW64 ~/sendhelp/asi/asi (lets_add_the_login)
+$ git commit -m "login"
+On branch lets_add_the_login
+nothing to commit, working tree clean
+
+PCHR@MIKOS-DESKTOP MINGW64 ~/sendhelp/asi/asi (lets_add_the_login)
+$ git push origin lets_add_the_login
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'lets_add_the_login' on GitHub by visiting:
+remote:      https://github.com/MikoTheShiba/asi/pull/new/lets_add_the_login
+remote:
+To https://github.com/MikoTheShiba/asi
+ * [new branch]      lets_add_the_login -> lets_add_the_login
+
+PCHR@MIKOS-DESKTOP MINGW64 ~/sendhelp/asi/asi (lets_add_the_login)
+$ git status
+On branch lets_add_the_login
+nothing to commit, working tree clean
+
+PCHR@MIKOS-DESKTOP MINGW64 ~/sendhelp/asi/asi (lets_add_the_login)
+$ git checkout -b "main"
+fatal: a branch named 'main' already exists
+
+PCHR@MIKOS-DESKTOP MINGW64 ~/sendhelp/asi/asi (lets_add_the_login)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+PCHR@MIKOS-DESKTOP MINGW64 ~/sendhelp/asi/asi (main)
+$
